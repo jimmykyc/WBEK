@@ -1,0 +1,123 @@
+
+
+
+.pie-chart {
+    max-width: 300px;
+    margin-left: 50%;
+    margin-top: -310px;
+}
+.howbuy{
+      margin:100px;
+}
+@media (max-width: 767px) {
+    .howbuy{
+      margin:0px;
+    }
+    .pie-chart {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pie-chart {
+        margin:60px auto;
+        max-width: 250px;
+    }
+}
+
+.d3-tip {
+    font-size: 14px;
+    transition: 0.3s opacity linear, 0.3s transform linear;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    transform: translateY(-10px);
+    color: #333;
+    text-align: center;
+}
+
+.d3-tip p {
+    margin: 0;
+    padding: 0;
+}
+
+.d3-tip.is-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.d3-tip__label {
+    font-weight: bold;
+}
+
+/* COUNTDOWN */
+.count_presale h1 {
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+  }
+
+.count_presale li {
+    display: inline-block;
+    font-size: 0.6em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  .count_presale li span {
+    display: block;
+    font-size: 1.5rem;
+  }
+  
+  .count_presale .message {
+    font-size: 1rem;
+    display: none;
+    padding: 1rem;
+  }
+  
+  .count_presale .emoji {
+    padding: 0 .25rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    .count_presale{
+        margin:30px auto;
+        text-align: center;
+    }
+    .count_presale h1 {
+      font-size: 1.0rem;
+    }
+    
+    .count_presale li {
+      font-size: 0.825rem;
+      padding: .75rem;
+    }
+    
+    .count_presale li span {
+      font-size: 1.175rem;
+    }
+  }
+
+  @media all and (max-width: 568px) {
+    .count_presale{
+        margin:30px auto;
+        text-align: center;
+    }
+    .count_presale h1 {
+      font-size: 1.0rem;
+      text-align: left;
+    }
+    .count_presale ul{
+      margin-left:-110px;
+    }
+    .count_presale li {
+      font-size: 0.825rem;
+      padding: .35rem;
+      text-align: left;
+    }
+    
+    .count_presale li span {
+      font-size: 1.175rem;
+    }
+  }
